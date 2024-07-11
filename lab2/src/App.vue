@@ -7,12 +7,11 @@ import { RouterLink, RouterView } from 'vue-router'
     <header>
       <div class="wrapper">
         <nav>
-          <RouterLink to="/">Event</RouterLink> l
-          <RouterLink to="/about">About</RouterLink>
+          <RouterLink to="/">Event</RouterLink> | <RouterLink to="/about">About</RouterLink> |
+          <RouterLink to="/student">Student</RouterLink>
         </nav>
       </div>
     </header>
-
     <RouterView />
   </div>
 </template>
@@ -29,13 +28,16 @@ import { RouterLink, RouterView } from 'vue-router'
 nav {
   padding: 30px;
 }
+
 nav a {
   font-weight: bold;
   color: #2c3e50;
 }
+
 nav a.router-link-exact-active {
   color: #42b983;
 }
+
 h2 {
   font-size: 20px;
 }
