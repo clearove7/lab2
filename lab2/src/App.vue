@@ -12,7 +12,7 @@ import { RouterLink, RouterView } from 'vue-router'
         </nav>
       </div>
     </header>
-
+    
     <RouterView />
   </div>
 </template>
@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from 'vue-router'
   color: #2c3e50;
 }
 
-nav{
+nav {
   padding: 30px;
 }
 nav a {
